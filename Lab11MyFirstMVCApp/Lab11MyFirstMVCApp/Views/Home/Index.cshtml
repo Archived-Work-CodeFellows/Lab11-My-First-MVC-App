@@ -1,12 +1,21 @@
-﻿<h1>This is the home view oh boy oh boy</h1>
+﻿<link href="~/StyleSheet.css" rel="stylesheet" type="text/css" />
 
-<form method="get">
+<div class="wrapper">
 
-    <label for="beginYear">Starting Year</label>
-    <input maxlength="4" name="beginYear" />
+    <img id="logo" src="~/Time_Magazine_logo.svg" alt="Time Logo" />
+    <h1>People of the Years</h1>
 
-    <label for="endYear">End Year</label>
-    <input maxlength="4" name="endYear" />
+    <form method="post">
+        <div class="begin">
+            <label for="beginYear">Starting Year</label>
+            <input maxlength="4" name="beginYear" />
+        </div>
+        <div class="end">
+            <label for="endYear">End Year</label>
+            <input maxlength="4" name="endYear" />
+        </div>
 
-    <button type="submit">Search</button>
-</form>
+        <button id="search" type="submit">Search</button>
+    </form>
+
+</div>

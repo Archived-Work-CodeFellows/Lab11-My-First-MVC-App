@@ -1,0 +1,56 @@
+﻿@import "normalize.css";
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("canyon1920x1200.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    border: 10px solid red;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    align-content: center;
+}
+img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+label{
+    color: white;
+}
+
+h1{
+    color:white;
+}
+
+form {
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 32%;
+}
+
+.begin{
+    float: left;
+    margin: 0 auto;
+}
+.end{
+    clear: left;
+    float: left;
+}
+
+form>#search{
+    width: 50%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background: lightblue;
+}

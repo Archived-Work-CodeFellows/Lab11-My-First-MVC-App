@@ -1,0 +1,30 @@
+﻿@model List<Lab11MyFirstMVCApp.Models.TimePerson>
+<link href="~/StyleSheet.css" rel="stylesheet" />
+
+<table>
+    <tr>
+        <td>Year</td>
+        <td>Name</td>
+        <td>Birth Year</td>
+        <td>Death Year</td>
+        <td>Country</td>
+        <td>Title</td>
+        <td>Honer</td>
+        <td>Context</td>
+        <td>Category</td>
+    </tr>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person.Year</td>
+            <td>@person.Name</td>
+            <td>@person.BirthYear</td>
+            <td>@person.DeathYear</td>
+            <td>@person.Country</td>
+            <td>@person.Title</td>
+            <td>@person.Honor</td>
+            <td>@person.Context</td>
+            <td>@person.Category</td>
+        </tr>
+    }
+</table>
