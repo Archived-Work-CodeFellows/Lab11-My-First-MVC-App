@@ -35,7 +35,7 @@ namespace Lab11MyFirstMVCApp.Models
             //Instantiate a list of type TimePerson
             List<TimePerson> people = new List<TimePerson>();
             //Here is the setup for finding the file.
-            //First we set a string path to the applications current directory
+            //First we set a string path to the application's current directory
             string path = Environment.CurrentDirectory;
             //Now we are locating our csv file
             string filePath = Path.GetFullPath(Path.Combine(path, @"wwwroot\personOfTheYear.csv"));

@@ -25,9 +25,9 @@ namespace Lab11MyFirstMVCApp
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //Setting the use of static files
             app.UseStaticFiles();
-
+            //This sets the default route for our home page
             app.UseMvc(route =>
             {
                 route.MapRoute(

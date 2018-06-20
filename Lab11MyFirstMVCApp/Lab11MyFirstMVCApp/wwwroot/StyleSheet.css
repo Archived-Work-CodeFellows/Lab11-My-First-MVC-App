@@ -10,7 +10,7 @@ body {
 
 .wrapper{
     border: 10px solid red;
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 2%;
     text-align: center;
@@ -33,7 +33,7 @@ form {
     text-align: center;
     width: 25%;
     margin: 0 auto;
-    margin-top: 32%;
+    margin-top: 40%;
 }
 
 .begin{
@@ -47,10 +47,41 @@ form {
 
 form>#search{
     width: 50%;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
-table, th, td {
-    border: 1px solid black;
-    background: lightblue;
+tr {
+    background-color: lightblue;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+th {
+    background-color: burlywood;
+    border-top: 1px solid black;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th, td {
+    
+    border-bottom: 1px solid black;
+}
+td:first-child, th:first-child {
+    border-left: 1px solid black;
+}
+
+td:last-child, th:last-child {
+   border-right: 1px solid black;
+}
+
+td {
+    font-size: .9em;
+    padding: 5px 10px;
 }
