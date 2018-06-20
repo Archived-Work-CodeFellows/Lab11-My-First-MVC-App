@@ -26,6 +26,6 @@ end year to be redirected to a results page displaying the filtered information
 
 ***
 ## Resources
-[Canyon Background](http://www.wallpapers13.com/milky-way-bryce-canyon-national-park-utah-united-states-desktop-wallpaper-hd-download-free-1920x1200/)
-[Time Logo](https://commons.wikimedia.org/wiki/File:Time_Magazine_logo.svg)
+* [Canyon Background](http://www.wallpapers13.com/milky-way-bryce-canyon-national-park-utah-united-states-desktop-wallpaper-hd-download-free-1920x1200/)
+* [Time Logo](https://commons.wikimedia.org/wiki/File:Time_Magazine_logo.svg)
 ***
